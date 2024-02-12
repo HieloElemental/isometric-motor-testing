@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+#game-container {
+  display: block;
+  image-rendering: pixelated;
+  width: 200vw;
+  height: 200vh;
+  overflow: hidden;
+}
+
+div{
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  transition: 0.5s ease;
+}
